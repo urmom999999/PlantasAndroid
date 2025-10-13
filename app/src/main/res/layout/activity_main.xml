@@ -4,41 +4,62 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:padding="16dp"
+    android:background="@drawable/fondoAndroid2"
     >
 
 
     <Button
         android:id="@+id/btnListar"
-        android:layout_width="match_parent"
+        android:layout_width="321dp"
         android:layout_height="wrap_content"
         android:layout_marginBottom="8dp"
-        android:text="Listar o Buscar con filtro" />
+        android:backgroundTint="#49FFFFFF"
+        android:fontFamily="sans-serif"
+        android:text="Listar o Buscar con filtro"
+        android:textColor="#0D0B0B"
+        android:textSize="16sp" />
 
     <Button
         android:id="@+id/btnAnadir"
-        android:layout_width="match_parent"
+        android:layout_width="321dp"
         android:layout_height="wrap_content"
         android:layout_marginBottom="8dp"
-        android:text="Añadir" />
+        android:backgroundTint="#49FFFFFF"
+        android:fontFamily="sans-serif"
+        android:text="Añadir"
+        android:textColor="#0D0B0B"
+        android:textSize="16sp" />
 
     <Button
         android:id="@+id/btnBorrar"
-        android:layout_width="match_parent"
+        android:layout_width="321dp"
         android:layout_height="wrap_content"
         android:layout_marginBottom="8dp"
-        android:text="Borrar" />
+        android:backgroundTint="#49FFFFFF"
+        android:fontFamily="sans-serif"
+        android:text="Borrar"
+        android:textColor="#0D0B0B"
+        android:textSize="16sp" />
 
     <Button
         android:id="@+id/btnActualizar"
-        android:layout_width="match_parent"
+        android:layout_width="321dp"
         android:layout_height="wrap_content"
         android:layout_marginBottom="8dp"
-        android:text="Actualizar" />
+        android:backgroundTint="#49FFFFFF"
+        android:fontFamily="sans-serif"
+        android:text="Actualizar"
+        android:textColor="#0D0B0B"
+        android:textSize="16sp" />
 
     <Button
         android:id="@+id/btnSalir"
-        android:layout_width="match_parent"
+        android:layout_width="321dp"
         android:layout_height="wrap_content"
-        android:text="Salir" />
+        android:backgroundTint="#49FFFFFF"
+        android:fontFamily="sans-serif"
+        android:text="Salir"
+        android:textColor="#0D0B0B"
+        android:textSize="16sp" />
 
 </LinearLayout>
