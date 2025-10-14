@@ -3,20 +3,74 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:padding="16dp">
+    android:padding="16dp"
+    android:gravity="center"
+    android:background="@drawable/testfondo">
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Pantalla de Actualizar"
+        android:text="Actualizar"
+        android:gravity="center"
+        android:layout_marginBottom="16dp"
+        android:fontFamily="sans-serif"
+        android:paddingBottom="20dp"
+        android:textAllCaps="true"
+        android:textColor="#F69AC0"
+        android:startColor="#345953"
+        android:textSize="30dp"
+        android:textStyle="bold|italic" />
+
+    <EditText
+        android:id="@+id/oldnombre"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif"
+        android:hint="Escriba el nombre del juego a cambiar"
+        android:paddingBottom="20dp"
+        android:textColorHint="#ADE9E4E4" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Escriba los nuevos datos, dejar en blanco para mantener los datos anteriores."
         android:textSize="18sp"
         android:gravity="center"
-        android:layout_marginBottom="16dp" />
+        android:fontFamily="sans-serif"
+        android:textColor="#E9E4E4"
+        android:layout_margin="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"/>
+
+    <EditText
+        android:id="@+id/actnombre"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif"
+        android:hint="Escriba el nombre"
+        android:textColorHint="#ADE9E4E4" />
+
+    <EditText
+        android:id="@+id/acttipo"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif"
+        android:hint="Escriba el tipo"
+        android:textColorHint="#ADE9E4E4" />
+
+    <EditText
+        android:id="@+id/actyear"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif"
+        android:hint="Escriba el año"
+        android:textColorHint="#ADE9E4E4" />
 
     <Button
         android:id="@+id/btnAtras"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Atrás" />
-
+        android:text="Atrás"
+        android:background="@drawable/button"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#7FA90505"/>
 </LinearLayout>

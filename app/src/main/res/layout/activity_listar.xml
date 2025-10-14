@@ -3,20 +3,75 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:padding="16dp">
+    android:padding="16dp"
+    android:gravity="center"
+    android:background="@drawable/testfondo">
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Pantalla de Listar/Buscar"
-        android:textSize="18sp"
+        android:text="Buscar"
         android:gravity="center"
-        android:layout_marginBottom="16dp" />
+        android:layout_marginBottom="16dp"
+        android:fontFamily="sans-serif"
+        android:paddingBottom="20dp"
+        android:textAllCaps="true"
+        android:textColor="#F69AC0"
+        android:startColor="#345953"
+        android:textSize="30dp"
+        android:textStyle="bold|italic" />
+
+    <LinearLayout
+        android:id="@+id/containerLista"
+        android:layout_width="match_parent"
+        android:layout_height="104dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnFiltrarNombre"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:layout_margin="5dp"
+            android:background="@drawable/button"
+            android:text="Nombre" />
+
+        <Button
+            android:id="@+id/btnFiltrarTipo"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:layout_margin="5dp"
+            android:background="@drawable/button"
+            android:text="Tipo" />
+
+        <Button
+            android:id="@+id/btnFiltrarFecha"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:layout_margin="5dp"
+            android:background="@drawable/button"
+            android:text="Fecha" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="300dp"
+        android:layout_height="287dp"
+        android:gravity="top"
+        android:text="DATOS:\n"
+        android:textColor="#E9E4E4" />
 
     <Button
         android:id="@+id/btnAtras"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Atrás" />
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/button"
+        android:fontFamily="sans-serif"
+        android:textStyle="bold|italic"
+        android:text="Atras"
+        android:textColor="#E9E4E4"
+        android:textSize="12sp" />
 
 </LinearLayout>
