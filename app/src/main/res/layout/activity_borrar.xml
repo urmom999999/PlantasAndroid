@@ -22,7 +22,7 @@
         android:textStyle="bold|italic" />
     <EditText
         android:id="@+id/eliminartext"
-        android:layout_width="match_parent"
+        android:layout_width="350dp"
         android:layout_height="wrap_content"
         android:fontFamily="sans-serif"
         android:textColorHint="#ADE9E4E4"
@@ -30,18 +30,21 @@
         />
     <Button
         android:id="@+id/btnEliminar"
+        android:textColor="#E9E4E4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Eliminar"
         android:layout_marginTop="10dp"
         android:layout_marginBottom="10dp"
-        android:background="@drawable/button"/>
+        android:background="@drawable/button_red"
+        android:backgroundTint="#D52222"/>
     <Button
         android:id="@+id/btnAtras"
+        android:textColor="#E9E4E4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Atrás"
-        android:background="@drawable/button"
+        android:background="@drawable/button_red"
         android:backgroundTint="#7FA90505"/>
 
 </LinearLayout>

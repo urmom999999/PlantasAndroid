@@ -33,7 +33,7 @@
 
     <EditText
         android:id="@+id/agregnombre"
-        android:layout_width="match_parent"
+        android:layout_width="350dp"
         android:layout_height="wrap_content"
         android:fontFamily="sans-serif"
         android:textColorHint="#ADE9E4E4"
@@ -43,7 +43,7 @@
         />
     <EditText
         android:id="@+id/agregtipo"
-        android:layout_width="match_parent"
+        android:layout_width="350dp"
         android:layout_height="wrap_content"
         android:fontFamily="sans-serif"
         android:textColorHint="#ADE9E4E4"
@@ -51,7 +51,7 @@
         />
     <EditText
         android:id="@+id/agregaryear"
-        android:layout_width="match_parent"
+        android:layout_width="350dp"
         android:layout_height="wrap_content"
         android:fontFamily="sans-serif"
         android:textColorHint="#ADE9E4E4"
@@ -59,6 +59,7 @@
         />
     <Button
         android:id="@+id/btnAgregar"
+        android:textColor="#E9E4E4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Añadir"
@@ -68,9 +69,10 @@
 
     <Button
         android:id="@+id/btnAtras"
+        android:textColor="#E9E4E4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:background="@drawable/button"
+        android:background="@drawable/button_red"
         android:backgroundTint="#7FA90505"
         android:text="Atrás"
         />

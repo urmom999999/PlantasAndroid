@@ -30,6 +30,7 @@
 
         <Button
             android:id="@+id/btnFiltrarNombre"
+            android:textColor="#E9E4E4"
             android:layout_width="100dp"
             android:layout_height="40dp"
             android:layout_margin="5dp"
@@ -38,6 +39,7 @@
 
         <Button
             android:id="@+id/btnFiltrarTipo"
+            android:textColor="#E9E4E4"
             android:layout_width="100dp"
             android:layout_height="40dp"
             android:layout_margin="5dp"
@@ -46,6 +48,7 @@
 
         <Button
             android:id="@+id/btnFiltrarFecha"
+            android:textColor="#E9E4E4"
             android:layout_width="100dp"
             android:layout_height="40dp"
             android:layout_margin="5dp"
@@ -67,7 +70,7 @@
         android:layout_width="100dp"
         android:layout_height="40dp"
         android:layout_marginBottom="8dp"
-        android:background="@drawable/button"
+        android:background="@drawable/button_red"
         android:fontFamily="sans-serif"
         android:textStyle="bold|italic"
         android:text="Atras"
