@@ -1,5 +1,4 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
-    <!-- Base application theme. -->
     <style name="Base.Theme.Plantas" parent="Theme.AppCompat.Light.DarkActionBar">
         <item name="windowActionBar">false</item>
         <item name="windowNoTitle">true</item>
@@ -7,7 +6,6 @@
         <item name="colorPrimaryDark">#9DCEC7</item>
         <item name="colorAccent">#F69AC0</item>
 
-        <!-- Deshabilitar estilos Material para botones -->
         <item name="buttonStyle">@style/MyButtonStyle</item>
         <item name="android:buttonStyle">@style/MyButtonStyle</item>
     </style>
