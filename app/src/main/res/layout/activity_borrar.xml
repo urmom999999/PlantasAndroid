@@ -26,6 +26,7 @@
         android:layout_height="wrap_content"
         android:fontFamily="sans-serif"
         android:textColorHint="#ADE9E4E4"
+        android:textColor="#FFFFFF"
         android:hint="Escriba el nombre del juego a eliminar"
         />
     <Button

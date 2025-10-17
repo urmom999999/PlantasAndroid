@@ -28,7 +28,8 @@
         android:fontFamily="sans-serif"
         android:hint="Escriba el nombre del juego a cambiar"
         android:paddingBottom="20dp"
-        android:textColorHint="#ADE9E4E4" />
+        android:textColorHint="#ADE9E4E4"
+        android:textColor="#FFFFFF"/>
     <TextView
         android:layout_width="350dp"
         android:layout_height="wrap_content"
@@ -47,7 +48,8 @@
         android:layout_height="wrap_content"
         android:fontFamily="sans-serif"
         android:hint="Escriba el nombre"
-        android:textColorHint="#ADE9E4E4" />
+        android:textColorHint="#ADE9E4E4"
+        android:textColor="#FFFFFF"/>
 
     <EditText
         android:id="@+id/acttipo"
@@ -55,7 +57,8 @@
         android:layout_height="wrap_content"
         android:fontFamily="sans-serif"
         android:hint="Escriba el tipo"
-        android:textColorHint="#ADE9E4E4" />
+        android:textColorHint="#ADE9E4E4"
+        android:textColor="#FFFFFF"/>
 
     <EditText
         android:id="@+id/actyear"
@@ -63,7 +66,8 @@
         android:layout_height="wrap_content"
         android:fontFamily="sans-serif"
         android:hint="Escriba el año"
-        android:textColorHint="#ADE9E4E4" />
+        android:textColorHint="#ADE9E4E4"
+        android:textColor="#FFFFFF"/>
 
     <Button
         android:id="@+id/btnActualizar"

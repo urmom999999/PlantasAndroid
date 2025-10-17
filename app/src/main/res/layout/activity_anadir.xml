@@ -37,6 +37,7 @@
         android:layout_height="wrap_content"
         android:fontFamily="sans-serif"
         android:textColorHint="#ADE9E4E4"
+        android:textColor="#FFFFFF"
         android:hint="Escriba el nombre"
 
 
@@ -47,6 +48,7 @@
         android:layout_height="wrap_content"
         android:fontFamily="sans-serif"
         android:textColorHint="#ADE9E4E4"
+        android:textColor="#FFFFFF"
         android:hint="Escriba el tipo"
         />
     <EditText
@@ -55,6 +57,7 @@
         android:layout_height="wrap_content"
         android:fontFamily="sans-serif"
         android:textColorHint="#ADE9E4E4"
+        android:textColor="#FFFFFF"
         android:hint="Escriba el año"
         />
     <Button
