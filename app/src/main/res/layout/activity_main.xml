@@ -22,7 +22,7 @@
         android:layout_height="wrap_content"
         android:fontFamily="sans-serif"
         android:paddingBottom="40dp"
-        android:text="DS MANAGER"
+        android:text="DS ARCHIVE"
         android:textAllCaps="true"
         android:textColor="#F69AC0"
         android:textSize="30dp"
